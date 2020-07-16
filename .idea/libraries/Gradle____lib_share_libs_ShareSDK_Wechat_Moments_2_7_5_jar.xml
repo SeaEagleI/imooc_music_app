@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./lib_share/libs/ShareSDK-Wechat-Moments-2.7.5.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_share/libs/ShareSDK-Wechat-Moments-2.7.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

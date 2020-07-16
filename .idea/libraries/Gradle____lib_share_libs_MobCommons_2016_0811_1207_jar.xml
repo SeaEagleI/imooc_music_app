@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./lib_share/libs/MobCommons-2016.0811.1207.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib_share/libs/MobCommons-2016.0811.1207.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
