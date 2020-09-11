@@ -32,26 +32,26 @@ android {
     }
 
     //不同渠道的签名，可以定义多个
-//    signingConfigs {
-//        release {
-//            // 绝对路径或相对路径
-//            storeFile file("imooc_voice_key")
-//            storePassword "123456"
-//            keyAlias "qndroid"
-//            keyPassword "123456"
-//            v1SigningEnabled true
-//            v2SigningEnabled true
-//        }
-//    }
+    signingConfigs {
+        release {
+            // 绝对路径或相对路径
+            storeFile file("imooc_voice_key")
+            storePassword "123456"
+            keyAlias "qndroid"
+            keyPassword "123456"
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
 
-//    buildTypes {
-//        release {
-//            signingConfig signingConfigs.release
-//            minifyEnabled false
-//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-//
-//        }
-//    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+        }
+    }
 }
 
 dependencies {

@@ -7,6 +7,7 @@ ext {
                versionCode      : 2,
                versionName      : '1.1',
                multiDexEnabled  : true,]
+
     depsVersion = [appcompact     : '29.0.0',
                    design         : '29.0.0',
                    recyclerview   : '29.0.0',
